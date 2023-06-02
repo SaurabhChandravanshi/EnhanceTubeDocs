@@ -1,18 +1,17 @@
-import React from 'react'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import React from "react";
+import { DocsThemeConfig } from "nextra-theme-docs";
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <span>EnhanceTube Docs</span>,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: "https://github.com/SaurabhChandravanshi/enhancetube-docs",
   },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
-  footer: {
-    text: 'Nextra Docs Template',
-  },
-}
 
-export default config
+  docsRepositoryBase:
+    "https://github.com/SaurabhChandravanshi/enhancetube-docs",
+  footer: {
+    text: "© 2023 EnhanceTube. All rights reserved.",
+  },
+};
+
+export default config;
